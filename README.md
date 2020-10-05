@@ -56,7 +56,7 @@ The master branch has the most recent code with all new features and bug fixes. 
 
 ## Releases
 
-Each official release (preview or GA) will be tagged to mark the commit and push it into the Github releases tab, e.g. `v6.0-rel`.
+Each official release (preview or GA) will be tagged to mark the commit and push it into the Github releases tab, e.g. `v6.1-rel`.
 
 ## Directory layout
 
@@ -65,7 +65,64 @@ Each official release (preview or GA) will be tagged to mark the commit and push
 - common
   - inc
   - src
+- common_modules
+  - inc
+  - module_lib/src 
+  - module_manager
+- common_smp
+  - inc
+  - src  
 - ports
+  - cortex_m0
+  - cortex_m3
+  - cortex_m4
+  - cortex_m7
+  - arc_em
+  - arc_hs
+  - arm11
+  - arm9
+  - c667x
+  - cortex_a15
+  - cortex_a35
+  - cortex_a5
+  - cortex_a5x
+  - cortex_a7
+  - cortex_a8
+  - cortex_a9
+  - cortex_m0
+  - cortex_m23
+  - cortex_m3
+  - cortex_m33
+  - cortex_m4
+  - cortex_m7
+  - cortex_r4
+  - cortex_r5
+  - cortex_r7
+  - linux
+  - risc-v32
+  - win32
+- ports_module
+  - cortex_a7
+    - ac5
+  - cortex_m3
+    - ac5
+    - ac6
+    - gnu
+    - iar
+  - cortex_m4
+    - ac5
+    - ac6
+    - gnu
+    - iar  
+  - cortex_m7
+    - ac5
+    - ac6
+    - gnu
+    - iar
+  - cortex_r4
+    - ac6
+    - iar    
+- ports_smp
   - cortex_m0/gnu
     - inc
     - src
@@ -77,7 +134,7 @@ Each official release (preview or GA) will be tagged to mark the commit and push
     - src
   - cortex_m7/gnu
     - inc
-    - src
+    - src    
 - samples
 ```
 
